@@ -18,8 +18,9 @@ public static class MauiProgram
 
 		builder.Services.AddTransient<SchedulePage>();
 		builder.Services.AddTransient<ScheduleViewModel>();
+        builder.Services.AddTransient<SponsorsPage>();
+        builder.Services.AddTransient<AgendaPage>();
 
-
-		return builder.Build();
+        return builder.Build();
 	}
 }
