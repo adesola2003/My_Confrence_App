@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>My_Confrence_App</name>
+    </assembly>
+    <members>
+        <member name="P:My_Confrence_App.Models.Session.InAgenda">
+            <inheritdoc cref="F:My_Confrence_App.Models.Session.inAgenda"/>
+        </member>
+        <member name="F:My_Confrence_App.ViewModels.ScheduleViewModel.loadDataCommand">
+            <summary>The backing field for <see cref="P:My_Confrence_App.ViewModels.ScheduleViewModel.LoadDataCommand"/>.</summary>
+        </member>
+        <member name="P:My_Confrence_App.ViewModels.ScheduleViewModel.LoadDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:My_Confrence_App.ViewModels.ScheduleViewModel.LoadDataAsync"/>.</summary>
+        </member>
+    </members>
+</doc>
