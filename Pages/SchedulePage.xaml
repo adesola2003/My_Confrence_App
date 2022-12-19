@@ -37,7 +37,7 @@
                                 <Label Text="{Binding Title}" FontSize="24"
                                        FontAttributes="Bold"/>
                                 <Label Text="{Binding Room, StringFormat='in {0}'}" />
-                                <Label Text="{Binding Speaker}" />
+                                <Label Text="{Binding Speaker.Name}" />
                             </VerticalStackLayout>
                         </Border>
                     </Grid>
